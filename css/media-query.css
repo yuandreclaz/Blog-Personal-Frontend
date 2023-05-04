@@ -4,9 +4,8 @@
     }
 }
 @media screen and (max-width: 800px){
-    /*Pagina de Inicio */
 
-    /*Página de BLOGS */
+    /*Pagina de Inicio, Página de Blogs */
     .news{
         padding: 20px;
     }
@@ -83,15 +82,15 @@
         font-size: 25px;
     }
 
-    /*Página de BLOGS */
-    .blogs-main{
-        padding: 0;
-    }
+    /*Página de Blogs */
+    
     .news{
+        padding: 0;
         width: 100%;
         padding: 10px;
     }
     .news-content{
+        padding: 0;
         grid-template-columns: auto;
         grid-template-rows: auto auto auto;
     }
@@ -140,7 +139,7 @@
         width: 100%;
     }
 
-    .projects-container{
+    .project-container{
         padding: 10px;
     }
     .project{
